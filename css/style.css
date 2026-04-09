@@ -85,3 +85,38 @@ section::after {
   display: block;
   clear: both;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+header {
+  background-color: #dcdcdc;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+main {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 1rem;
+  margin-top: 2rem;
+}
