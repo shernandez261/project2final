@@ -11,11 +11,13 @@ header {
   padding: 1rem 0;
   position: sticky;
   top: 0;
+  text-align: center;
 }
 
 nav ul {
   list-style-type: none;
   text-align: center;
+  padding: 0;
 }
 
 nav li {
@@ -30,7 +32,8 @@ nav a {
 }
 
 main {
-  margin-top: 2rem;
+  width: 80%;
+  margin: 2rem auto;
 }
 
 section {
@@ -49,6 +52,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 img {
@@ -84,39 +88,4 @@ section::after {
   content: "";
   display: block;
   clear: both;
-}
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-}
-
-header {
-  background-color: #dcdcdc;
-  padding: 1rem;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 1rem;
-}
-
-main {
-  width: 80%;
-  margin: 2rem auto;
-  background-color: white;
-  padding: 2rem;
-}
-
-footer {
-  text-align: center;
-  background-color: #dcdcdc;
-  padding: 1rem;
-  margin-top: 2rem;
 }
